@@ -12,5 +12,4 @@ const connectDatabase = () =>{
         console.log(`Error setting up connection to database: ${err}`);
     });
 }
-
 module.exports = connectDatabase
