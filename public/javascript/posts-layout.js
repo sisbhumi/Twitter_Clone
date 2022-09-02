@@ -63,8 +63,8 @@ function createPost(postData, mainPost) {
             <div class="tweet">
                 <a href="/profile/${postData.postedBy.username}">
                     <span class="name">${postData.postedBy.firstName} ${postData.postedBy.lastName}</span>
-                    <span class="grey">@${postData.postedBy.username}</span>
-                </a> • <span class="grey">${time}</span>
+                    <span class="white">@${postData.postedBy.username}</span>
+                </a> • <span class="white">${time}</span>
                 <div class="reply-container">${replyText}</div>
                 <p class="tweet-content">${postData.content}</p>
             </div>
