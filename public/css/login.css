@@ -109,7 +109,11 @@ hr {
   padding: 10px;
   outline: none;
   border: 2px solid rgb(255, 255, 255);
+<<<<<<< HEAD
   color: rgb(7, 7, 7);
+=======
+  color: #000000;
+>>>>>>> 5ede48e2b98cabec7ecc3033ddd171e3a3dbd692
   border-radius: 5px;
   font-size: 15px;
   background-color: rgb(255, 254, 254);
