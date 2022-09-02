@@ -107,7 +107,7 @@ body {
     padding: 20px;
     font-size: 1.5rem;
     font-weight:600;
-    color: black;
+    color: rgb(255, 255, 255);
     
 }
 
@@ -188,6 +188,8 @@ body {
     -ms-user-select: none;      
     user-select: none;
     position: relative;
+    border-left: 1px solid rgb(181, 181, 181);
+    border-top: 1px solid rgb(181, 181, 181);
 }
 
 #replyTextarea {
@@ -220,6 +222,7 @@ body {
 
 .tweet a{
     text-decoration: none;
+    color: #979b9b;
 }
 
 .tweet-content {
@@ -312,6 +315,7 @@ body {
     flex-direction: row;
     padding: 8px;
     padding-right: 0;
+    border-left: 1px solid rgb(181, 181, 181);
 }
 
 .tweet-container {
@@ -350,8 +354,8 @@ textarea:focus-within {
 }
 
 .btn {
-    background-color: #1DA1F2;
-    color: white;
+    background-color: #086aa7;
+    color: rgb(5, 5, 5);
     border: none;
     border-radius: 20px;
     cursor: pointer;
@@ -1066,11 +1070,12 @@ textarea:focus-within {
     position: relative;
     overflow-y: scroll;
     height: 100vh;
-    /* border-right: 2px solid rgb(133, 133, 133); */
-    width: 50%;
+    border-right: 2px solid rgb(133, 133, 133);
+    width: 60%;
     display: flex;
     flex-direction: column;
     padding: 40px;
+    background-color: #000000;
 }
 
 .right-side-container::-webkit-scrollbar {
@@ -1081,7 +1086,7 @@ textarea:focus-within {
     margin-top: 15px; 
     margin-left: 20px; 
     padding: 30px; 
-    background-color: white; 
+    background-color: rgb(0, 0, 0); 
     border-radius: 20px;
     max-width: 70%;
     max-height: 60%;
