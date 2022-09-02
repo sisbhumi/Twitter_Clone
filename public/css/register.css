@@ -18,7 +18,7 @@
     height: 90vh;
     width: 38vw;
     border-radius: 20px;
-    background-color: #fff;
+    background-color: rgb(0, 0, 0);
 }
 
 
@@ -52,6 +52,7 @@
     margin: 70px 90px 0 90px;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
 }
 
 .namephone{
@@ -72,6 +73,7 @@
   padding: 10px;
   font-size: 15px;
   cursor: pointer;
+  background-color: black;
 }
 #submitBtn{
   height: 50px;
